@@ -1,0 +1,26 @@
+:root {
+	--color-light: #3c3f41;
+	--color-dark: #a1a1a1;
+	--color-unaccent: #808080;
+	--color-error-light: #f26b6b;
+	--color-error-dark: #d65c5c;
+
+	--spacing-small: 10px;
+	--spacing-medium: 15px;
+	--spacing-large: 30px;
+
+	--border-radius: 3px;
+	--linear-gradient: linear-gradient(to right, #c9548e, #bc3e7e, rgba(187, 62, 126, 0.78), rgba(217, 141, 177, 0.69));
+	--box-shadow: 
+		0 16px 24px 2px rgb(187, 62, 126),
+		0 6px 30px 5px rgb(0, 0, 0),
+		0 8px 10px -5px rgba(0, 0, 0, 0.1);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+}
